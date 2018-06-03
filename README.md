@@ -9,7 +9,7 @@
 
 部分源代码
 
-/*空心三角形 before/after伪类*/
+/* 空心三角形   before/after伪类 */
 
 
 .bgIcon #trigger {
@@ -17,7 +17,6 @@
     height:2.9rem;
      -webkit-border-radius:.12rem;
      border-radius: .12rem;
-     /*border: 1px #808080 solid;*/
      background-color: #6a70a4;
     opacity: .2;
     position: relative;
@@ -37,7 +36,6 @@
      position: absolute;
       bottom: 99%;
       left:45%;
-      /*left: .5rem;*/
       width: 0;
       height: 0;
       border-left: .24rem solid transparent;
@@ -51,7 +49,6 @@
       position: absolute;
       bottom:99%;
       left:46%;
-      /*left: .51rem;*/
       width: 0;
      height: 0;
      border-left: .23rem solid transparent;
