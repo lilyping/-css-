@@ -10,6 +10,8 @@
 部分源代码
 
 /*空心三角形 before/after伪类*/
+
+
 .bgIcon #trigger {
     width:3.9rem;
     height:2.9rem;
@@ -27,6 +29,8 @@
     -webkit-box-shadow: .03rem .03rem .04rem #000;
     border: .01rem solid #fff;
      }
+     
+     
 
 #trigger:before {
       content: " ";
