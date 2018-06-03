@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <meta name="description" content="不超过150个字符"/>
+    <meta name="keywords" content=""/>
+    <meta content="caibaojian" name="author"/>
+    <title>demo</title>
+    <link rel="stylesheet" href="css/base.css">
+</head>
+
+<body>
+<!-- 正文 -->
+
+<section class="bgIcon">
+    <!--<div class="bgSmall"></div>-->
+    <div id="trigger" class="inlayer"></div>
+
+    <form action="" class="formAt">
+        <section class="txtInput InputNum">
+            <!--<label for="text" class="txt">账号</label>-->
+            <input type="text" name="text" id="text" placeholder="邮箱手机号昵称" maxlength="20"
+                   required  pattern="^[0-9a-z][a-z0-9\._-]{1,}@[a-z0-9-]{1,}[a-z0-9]\.[a-z\.]{1,}[a-z]$||^1\d{10}$|^(0\d{2,3}-?|\(0\d{2,3}\))?[1-9]\d{4,7}(-\d{1,8})?$||^([\u4e00-\u9fa5]+|([a-z]+\s?)+)$" autofocus/>
+        </section>
+
+        <section class="txtInput">
+            <!--<label for="password" class="password">密码</label>-->
+            <input type="password" name="password" id="password" placeholder="请输入密码" required maxlength="12" autofocus/>
+        </section>
+
+        <section class="subInput">
+            <input type="submit" value="登录" id="submit"/>
+        </section>
+    </form>
+</section>
+
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/remDeal.js"></script>
+</body>
+</html>

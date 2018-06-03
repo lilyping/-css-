@@ -1,0 +1,134 @@
+body,dl,dd,ul,ol,h1,h2,h3,h4,h5,h6,pre,form,input,textarea,p,hr,thead,tbody,tfoot,th,td{margin:0;padding:0;}
+ul,ol{list-style:none;}
+a{text-decoration:none;}
+html{-ms-text-size-adjust:none;-webkit-text-size-adjust:none;text-size-adjust:none;}
+body{line-height:1.5; font-size:14px;}
+body,button,input,select,textarea{font-family:'helvetica neue',tahoma,'hiragino sans gb',stheiti,'wenquanyi micro hei',\5FAE\8F6F\96C5\9ED1,\5B8B\4F53,sans-serif;}
+b,strong{font-weight:bold;}
+i,em{font-style:normal;}
+table{border-collapse:collapse;border-spacing:0;}
+table th,table td{border:1px solid #ddd;padding:5px;}
+table th{font-weight:inherit;border-bottom-width:2px;border-bottom-color:#ccc;}
+img{border:0 none;width:auto\9;max-width:100%;vertical-align:top; height:auto;}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;vertical-align:baseline;}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
+button[disabled],input[disabled]{cursor:default;}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}
+input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}
+input:focus{outline:none;}
+select[size],select[multiple],select[size][multiple]{border:1px solid #AAA;padding:0;}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;}
+audio,canvas,video,progress{display:inline-block;}
+body{background:#fff;}
+input::-webkit-input-speech-button {display: none}
+button,input,textarea{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/*index*/
+.bgIcon{
+    width: 100%;
+    min-width: 6.4rem;
+    height: 11.38rem;
+    /* height: 100%; */
+    background: url(../imgs/1.jpg) no-repeat;
+    background-size: 100% 11.38rem;
+    position: relative;
+}
+
+/*空心三角形 before/after伪类*/
+.bgIcon #trigger {
+    width:3.9rem;
+    height:2.9rem;
+     -webkit-border-radius:.12rem;
+     border-radius: .12rem;
+     /*border: 1px #808080 solid;*/
+     background-color: #6a70a4;
+    opacity: .2;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left: -1.95rem;
+    margin-top: -1.45rem;
+    box-shadow: .03rem .03rem .04rem #000;
+    -webkit-box-shadow: .03rem .03rem .04rem #000;
+    border: .01rem solid #fff;
+     }
+
+#trigger:before {
+      content: " ";
+      position: absolute;
+      bottom: 99.5%;
+      left: 45.5%;
+      /*left: .5rem;*/
+      width: 0;
+      height: 0;
+      border-left: .23rem solid transparent;
+      /*border-bottom: .24rem solid #6a70a4;*/
+      border-bottom: .24rem solid rgba(255,255,255, 1);
+      border-right: .23rem solid transparent;
+      /*opacity: .5;*/
+
+     }
+
+#trigger:after {
+      content: " ";
+      position: absolute;
+      bottom:99%;
+      left:46%;
+      /*left: .51rem;*/
+      width: 0;
+     height: 0;
+     border-left: .22rem solid transparent;
+     border-bottom: .22rem solid rgba(106, 112, 164, 1);
+     border-right: .22rem solid transparent;
+      .}
+
+/*表单*/
+.formAt{
+    position:absolute;
+    top: 40.8%;
+    left: 27%;
+}
+.formAt .txtInput{
+    margin-top: .1rem;
+}
+.formAt .txtInput input{
+    width:3rem;
+    height:.4rem;
+    padding-top: .04rem;
+    padding-bottom: .04rem;
+    background: none;
+    border:none;
+    background-color:rgba(255, 255, 255, .2);
+    border:1px solid rgba(255, 255, 255, .3);
+    text-indent: 1em;
+}
+.txtInput input::-webkit-input-placeholder{
+    /*color: red;*/
+    /*font-size: 20px;*/
+    /*line-height: 50px;*/
+    font-size: .16rem;
+    text-indent: 1em;
+    color:#fff;
+}
+
+.formAt .subInput input{
+    width:3rem;
+    height:.5rem;
+    /*padding-top: .06rem;*/
+    /*padding-bottom: .06rem;*/
+    margin-top: .06rem;
+    background: none;
+    border:none;
+    background-color:rgba(45, 104, 232, .8);
+    border:1px solid rgba(255, 255, 255, .3);
+    font-size: .16rem;
+    color:#fff;
+    box-shadow: .03rem .03rem .04rem rgba(0, 0, 0, .3);
+    -webkit-box-shadow: .03rem .03rem .04rem rgba(0, 0, 0, .3);
+}
+.formAt .subInput{
+    padding-top: .1rem;
+}
