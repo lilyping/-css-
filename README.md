@@ -1,7 +1,8 @@
 # -css-
 纯css绘制的空心三角形（登录页面）
 效果图
-https://github.com/lilyping/-css-/blob/master/bgTrigger/imgs/%E6%95%88%E6%9E%9C%E5%9B%BE.png
+![Alt text](https://github.com/lilyping/-css-/blob/master/bgTrigger/imgs/%E6%95%88%E6%9E%9C%E5%9B%BE.png)
+
 
 #部分源代码
 
